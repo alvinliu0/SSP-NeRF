@@ -48,7 +48,7 @@ This project is developed and tested on Ubuntu 18.04, Python 3.7, PyTorch 1.9.1 
 
 ### Dataset Download and Preparation
 
-Due to the YouTube video copyright issues, we could not provide the raw videos/frames. The YouTube video ID of each corresponding videos are provided in `video_id.md`. You could download them by efficient tools like [youtube-dl](https://youtube-dl.org/). Afterwards, you could select the clips of interest (the clips with clear talking face of a certain speaker), and then crop the images into square shape for later pre-processing (i.e., keep the head, torso and background parts remained).
+Due to the YouTube video copyright issues, we could not provide the raw videos/frames. The YouTube video ID of each corresponding videos are provided in `video_id.txt`. You could download them by efficient tools like [youtube-dl](https://youtube-dl.org/). Afterwards, you could select the clips of interest (the clips with clear talking face of a certain speaker), and then crop the images into square shape for later pre-processing (i.e., keep the head, torso and background parts remained).
 
 ### Data Pre-processing
 
@@ -82,7 +82,7 @@ If you are interested in **NeRF / neural implicit representions + semantic map**
 
 * Object-compositional implicit neural surfaces: [ECCV 2022] [ObjectSDF](https://qianyiwu.github.io/objectsdf).
 
-* Neural implicit generative model, [Sem2NeRF](https://donydchen.github.io/sem2nerf/).
+* Neural implicit generative model: [ECCV 2022] [Sem2NeRF](https://donydchen.github.io/sem2nerf/).
 
 ## Acknowledgement
 * The codebase is developed based on [AD-NeRF](https://github.com/YudongGuo/AD-NeRF) of Guo et al. Many thanks to their great contributions!
